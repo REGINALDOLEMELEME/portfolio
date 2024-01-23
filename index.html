@@ -3,25 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <title>Portifolio</title>
 </head>
 <body>
     
-<header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
+
 <main class="apresentacao">
     <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível <strong  class="titulo-destaque">com um Back-end de qualidade!</strong></h1>
         <p class="apresentacao__conteudo__texto">Como um entusiasta da tecnologia busco ser um profissional que agregue o máximo possível a equipe, em que, apesar de possuir uma gama mais aprofundada no Backend e Gestão de Projetos, me empenho em conhecer e atuar nas áreas de Metodologias Ágeis, Gestão, Banco de dados, Front-end, e, mais recentemente, em Arquitetura e infraestruturas em Cloud, este último, me especializando em AWS e GCP, me tornando um profissional fullstack na condução de diversos projetos.</p>
         <div class="apresentacao__links">
-            <a class="apresentacao__links__link" href="https://www.linkedin.com/in/reginaldoleme/">LinkedInn</a>
-            <a class="apresentacao__links__link" href="https://github.com/reginaldolemeleme">Github</a>
+            <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+            <a class="apresentacao__links__link" href="https://www.linkedin.com/in/reginaldoleme/">
+                <img src="assets/linkedin.png" alt="logo da rede social  LinkedInn">
+                LinkedIn
+
+            </a>
+            <a class="apresentacao__links__link" href="https://github.com/reginaldolemeleme">
+                <img src="assets/github.png" alt="logo da rede social  LinkedInn">
+                Github
+            
+            </a>
 
         </div>
 
     </section>
-    <img src="images/programing.jpg" alt="my photo">
+    <img class="my_profile_photo" src="assets/programing.jpg" alt="my photo">
 </main>
-<footer></footer>
+<footer class="rodape">
+    <p>Desenvolvido por Reginaldo Leme</p>
+</footer>
 </body>
 </html>
