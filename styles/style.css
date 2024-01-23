@@ -2,10 +2,10 @@
 
 :root{
 
-    --primary-bg-color:  #001C30;
-    --secondary-bg-color: #176B87;
-    --tertiary-bg-color: #64CCC5;
-    --hover-bg-color: #DAFFFB;
+    --primary-bg-color:  #0B2447;
+    --secondary-bg-color: #FAF0E6;
+    --tertiary-bg-color: #A5D7E8;
+    --hover-bg-color: #576CBC;
 
     --font-principal: 'Krona One', sans-serif;
     --font-secondary: 'Monteserrat', sans-serif;
@@ -41,7 +41,7 @@ body{
 
     text-decoration: none;
     font-family: var(--font-secondary);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--tertiary-bg-color);
 
@@ -65,7 +65,7 @@ body{
 }
 
 .apresentacao__conteudo{
-
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -75,7 +75,7 @@ body{
 
 .apresentacao__conteudo__titulo{
 
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--font-principal);
 
 }
@@ -89,7 +89,7 @@ body{
 
 .apresentacao__conteudo__texto{
     font-family: var(--font-secondary);
-    font-size: 24px;
+    font-size: 1.5rem;
 
 }
 
@@ -107,19 +107,19 @@ body{
 
     font-family: var(--font-principal);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 
 }
 
-.apresentacao__links__link{
+.apresentacao__links__navegacao{
     display: flex;
     justify-content: center;
     gap: 16px;
     border: #22d4fd 2px solid;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 21.5px 0 ;
     margin: 10px;
     text-decoration: none;
@@ -137,16 +137,54 @@ body{
 
 }
 
+.apresentacao__imagem{
+
+    width: 50%;
+    margin-bottom: 5%;
+
+}
+
 .rodape{
 
     background-color:var(--tertiary-bg-color);
     padding: 24px;
     text-align: center;
     font-family: var(--font-secondary);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     margin-top: 8%;
 
+}
+
+.rodape__paragrafo{
+
+    color: var(--primary-bg-color);
+    font-weight: 600;
+
+}
+
+@media (max-width: 1200px){
+
+    
+.cabecalho{
+    padding: 10%;
+}
+
+.cabecalho__menu{
+
+    justify-content: center;
+
+}
+
+.apresentacao{
+    flex-direction: column-reverse;
+    padding: 0;
+}
+
+.apresentacao__conteudo {
+
+    width: 90%;
+}
 
 
 }
